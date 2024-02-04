@@ -6,7 +6,7 @@ pool: Build-Agent-Mac
 variables:
   buildConfiguration: '$(buildConfguration)'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-  dotnetSdkVersion: 'dotnetSdkVersion'  
+  dotnetSdkVersion: '6.x'  
 
 steps:
   - task: UseDotNet@2
